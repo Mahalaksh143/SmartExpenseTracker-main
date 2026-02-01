@@ -72,9 +72,6 @@ const Income = () => {
                     Notes
                     </th>
                     <th scope="col" className="px-6 py-3">
-                    Category
-                    </th>
-                    <th scope="col" className="px-6 py-3">
                     Date
                   </th>
                   <th scope="col" className="px-6 py-3 ">
@@ -92,7 +89,6 @@ const Income = () => {
                       key={index}
                       className="bg-white font-semibold text-sm text-gray-900 dark:text-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
                       <td className="px-6 py-4">{item.note}</td>
-                      <td className="px-6 py-4">{item.category}</td>
                       <td className="px-6 py-4">{item.date}</td>
                       <td className="px-6 py-4 font-bold ">$ {item.amount}</td>
                       <td className="px-6 py-4 flex gap-3 items-center">
